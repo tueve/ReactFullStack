@@ -1,0 +1,8 @@
+.component-navbar {
+  display: flex;
+
+  &__list-items {
+    margin-left: auto;
+    list-style-type: none;
+  }
+}
