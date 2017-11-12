@@ -1,8 +1,10 @@
 @import './common/mixins';
 @import './common/fonts';
+@import './libs/bootstrap';
+
+@import './components/nav';
 
 body {
-  background-color: red;
   font-family: 'Ubuntu';
   font-weight: 700;
 }
