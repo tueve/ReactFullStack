@@ -1,0 +1,17 @@
+.timer {
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 5px;
+
+  &__title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  &__title {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+}

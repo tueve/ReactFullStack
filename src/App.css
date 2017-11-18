@@ -5288,13 +5288,14 @@ a.text-dark:hover {
 .component-nav__list-items__item {
   margin: 0 10px;
   position: relative;
+  text-decoration: none;
 }
 .component-nav__list-items__item:after {
   content: '';
   position: absolute;
   width: 100%;
-  height: 3px;
-  bottom: 0;
+  height: 1px;
+  bottom: -5px;
   left: 0;
   background: black;
   visibility: hidden;
@@ -5305,6 +5306,7 @@ a.text-dark:hover {
 .component-nav__list-items__item:hover,
 .component-nav__list-items__item:focus {
   cursor: pointer;
+  text-decoration: none;
 }
 .component-nav__list-items__item:hover:after,
 .component-nav__list-items__item:focus:after {
@@ -5370,6 +5372,22 @@ a.text-dark:hover {
   top: 18px;
   width: 0%;
   left: 50%;
+}
+
+.timer {
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 5px;
+}
+.timer__title {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 2rem;
+}
+.timer__title {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 body {

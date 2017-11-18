@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../../../assets/img/logo.svg';
+// import logo from '../../../../assets/img/logo.svg';
 import { NavLink } from 'react-router-dom';
 
 class Nav extends Component {
