@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import timerDashBoardReducer from './TimeDashBoardReducers';
 
 const rootReducer = combineReducers({
-  timerReducer: timerDashBoardReducer
+  timer: timerDashBoardReducer
 });
 
 export default rootReducer;
